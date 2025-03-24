@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Product Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- <div class="header"> -->
+    <!-- Navbar Start -->
+    <div class="container">
+        <div class="navbar" id="navlinks">
+            <div class="logo">
+                <img src="images/logo.png" width="125px">
+            </div>
+            <!-- <i class="fa-solid fa-xmark" onclick="hideMenu()"></i> -->
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="http://127.0.0.1:5502/RED%20STORE/index.html">Home</a></li>
+                    <li><a href="http://127.0.0.1:5502/RED%20STORE/product_page.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="http://127.0.0.1:5502/RED%20STORE/login.html">Account</a></li>
+                </ul>
+            </nav>
+            <!-- <i class="fa-solid fa-bars" onclick="showMenu()"></i> -->
+            <a href="http://127.0.0.1:5502/RED%20STORE/ShoppingCart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    </div>
+    <!-- Featured products -->
+    <div class="small-container">
+        <div class="row dropdown">
+            <h2>All Products</h2>
+            <select name="" id="">
+                <option value="">Default Sorting</option>
+                <option value="">Short by price</option>
+                <option value="">Short by popularity</option>
+                <option value="">Short by rating</option>
+                <option value="">Short by sale</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <a href="http://127.0.0.1:5502/RED%20STORE/product_details.html"><img src="images/category-1.jpg" alt=""></a> 
+
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377;299/-</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-2.jpg" alt="">
+                <h4>Hot X Shoes</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377;2599/-</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-3.jpg" alt="">
+                <h4>Cotton Trousers</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <p>&#8377;259/-</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-4.jpg" alt="">
+                <h4>Black Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>&#8377;209/-</p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-5.jpg" alt="">
+                    <h4>Hike Shoes</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>&#8377;2299/-</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="images/product-6.jpg" alt="">
+                    <h4>Half-Sleeve T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>&#8377;279/-</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="images/product-7.jpg" alt="">
+                    <h4>Hot X Cotton Socks</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <p>&#8377;3299/-</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="images/product-8.jpg" alt="">
+                    <h4>Fossil Men Fenmore Watch</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>&#8377;2099/-</p>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-9.jpg" alt="">
+                    <h4>Roadster Watch</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>&#8377;2599/-</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="images/product-10.jpg" alt="">
+                    <h4>Terrex AX4 Hiking Shoes</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>&#8377;3099/-</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="images/product-11.jpg" alt="">
+                    <h4>Campus Mike Running Shoes</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <p>&#8377;299/-</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="images/product-12.jpg" alt="">
+                    <h4>Highlander Men's Striped Track Pants</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>&#8377;599/-</p>
+                </div>
+            </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+
+
+    <!--           footer starts            -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our Apps</h3>
+                    <p>Download App for Android ans ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png" alt="">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the
+                        Many.
+                    </p>
+                </div>
+
+                <div class="footer-col-3 ">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Follow US</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copy-right">Copyright 2025 by Abha . Created with CSS</p>
+        </div>
+    </div>
+
+    <!-- Js for toggle menu  -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MemuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px"
+
+            }
+
+            else {
+                MenuItems.style.maxHeight = "0px";
+
+
+
+            }
+        }
+    </script>
+
+</body>
+
+</html>
